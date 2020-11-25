@@ -1,6 +1,4 @@
-/**
- * Created by alone on 2017/5/16.
- */
+
 $(function () {
     var typeList = getTypeList();
     var curFirst = 0;
@@ -59,6 +57,9 @@ $(function () {
                 break;
             case "type_6":
                 curFirst = 5;
+                break;
+            case "type_7":
+                curFirst = 6;
                 break;
         }
         curSecond = 0;

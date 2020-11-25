@@ -1,6 +1,4 @@
-/**
- * Created by alone on 2017/5/9.
- */
+
 $(function () {
     //1 注册，2忘记密码
     var from_which = 0;

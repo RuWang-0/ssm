@@ -57,8 +57,8 @@
     margin-left: 8%;
     margin-top: 8%;
     margin-right: 8%;
-    background-color: blueviolet;
-    color: blueviolet;
+    background-color: #3f51b5;
+    color: #3f51b5;
 }
 
 .type_title_div h3 {
@@ -77,7 +77,7 @@
 }
 
 .one_part .type_goods_list a:hover {
-    color: blueviolet;
+    color: #3f51b5;
 }
 
 .temp_content {

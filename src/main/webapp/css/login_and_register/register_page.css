@@ -117,7 +117,7 @@ input.register_input_vcode {
     color: white;
 }
 button.get_vcode_button {
-    background-color: rebeccapurple;
+    background-color: #3f51b5;
     border-radius: 15px;
     color: white;
     font-size: 1em;
@@ -131,7 +131,7 @@ button.go_enter_password_button {
     margin-right: 15%;
     width: 70%;
     height: 14%;
-    background-color: rebeccapurple;
+    background-color: #3f51b5;
     color: white;
     border: none;
     border-radius: 20px;

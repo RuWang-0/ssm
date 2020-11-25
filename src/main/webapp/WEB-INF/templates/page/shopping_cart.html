@@ -17,18 +17,7 @@
 <div th:include="personal_nav :: personal_nav" class="personal_nav"></div>
 <div class="top_content">
     <div class="publish_product_div">
-        <div class="shipping_address" id="10001">
-            <span class="name_info">谢衣服</span><img src="/img/pencil.jpg" class="pencil_icon"/><br/>
-            <span class="address_info"> </span><br/><br/>
-            <span class="phone_info">188****1111</span><br/>
-            <span class="is_default">默认地址</span><img src="/img/delete_icon.jpg" class="delete_icon"/>
-        </div>
-        <div class="shipping_address" id="10002">
-            <span class="name_info">wsk</span><img src="/img/pencil.jpg" class="pencil_icon"/><br/>
-            <span class="address_info"> </span><br/><br/>
-            <span class="phone_info">188****1111</span><br/>
-            <span class="is_default">默认地址</span><img src="/img/delete_icon.jpg" class="delete_icon"/>
-        </div>
+
     </div>
     <div class="cart_content">
         <table>
@@ -88,7 +77,7 @@
                 <td class="space" colspan="3"></td>
                 <td colspan="2" class="all_sum">总价：￥<span>500.00</span>元</td>
                 <td colspan="3" class="pay_button_div">
-                    <button class="pay_button">结算</button>
+                    <button class="pay_button" onclick="Pay()">结算</button>
                 </td>
             </tr>
         </table>
@@ -97,5 +86,12 @@
         <p>Fudan Exchange<a href="/"></a></p>
     </footer>
 </div>
+<script language="javascript">
+    function Pay()
+    {
+        alert("结算成功");
+    }
+</script>
+
 </body>
 </html>
